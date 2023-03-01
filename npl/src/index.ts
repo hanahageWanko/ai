@@ -13,10 +13,6 @@ async function run() {
 
   // ベクトルをコンソールに出力する
   embeddings.print();
-  console.log("fsddddddddh");
-  console.log("Hello, TypeScript");
-  console.log("こんばんは！"); // 追加
 }
 
 run();
-console.log("x");
