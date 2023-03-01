@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // コンパイル時に出力するJavaScriptのバージョンを指定する
+    "module": "commonjs", // モジュールの種類を指定する
+    "sourceMap": true, // ソースマップを出力するかどうかを指定する
+    "esModuleInterop": true, // CommonJSモジュールとESモジュールの間での相互運用性をサポートする
+    "moduleResolution": "node", // モジュールの解決方法を指定する
+    "forceConsistentCasingInFileNames": true, // 大文字小文字の一貫性を保つ
+    "strict": true, // 厳密な型チェックを有効にする
+    "skipLibCheck": true, // ライブラリの型チェックをスキップする
+    "rootDir": "./src", // TypeScriptファイルのルートディレクトリを指定する
+    "outDir": "./dist", // コンパイルしたJavaScriptファイルを出力するディレクトリを指定する
+    /* JavaScript Support */
+    "allowJs": true, // JavaScriptファイルをコンパイルできるようにする
+    "baseUrl": "./", // 相対モジュールを解決するためのベースディレクトリを指定する
+    "paths": {
+      // パスの別名を指定する
+      "#/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"] // コンパイルするファイルを指定する
+}
